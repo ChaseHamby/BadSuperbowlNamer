@@ -20,5 +20,20 @@ namespace BadSuperbowlNamer.Tests
             // Assert
             Assert.Equal(expectedResult, actualResult); 
         }
+
+        [Fact]
+        public void number_5_should_be_roman_numberal_V()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 5;
+            var expectedResult = "V";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
     }
 }
