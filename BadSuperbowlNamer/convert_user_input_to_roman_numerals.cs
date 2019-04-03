@@ -65,5 +65,305 @@ namespace BadSuperbowlNamer.Tests
             // Assert
             Assert.Equal(expectedResult, actualResult);
         }
+
+        [Fact]
+        public void number_12_should_be_roman_numberal_XII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 12;
+            var expectedResult = "XII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_16_should_be_roman_numberal_XVI()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 16;
+            var expectedResult = "XVI";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_29_should_be_roman_numberal_XXIX()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 29;
+            var expectedResult = "XXIX";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_44_should_be_roman_numberal_XLIV()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 44;
+            var expectedResult = "XLIV";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_45_should_be_roman_numberal_XLV()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 45;
+            var expectedResult = "XLV";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_68_should_be_roman_numberal_LXVIII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 68;
+            var expectedResult = "LXVIII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_83_should_be_roman_numberal_LXXXIII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 83;
+            var expectedResult = "LXXXIII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_97_should_be_roman_numberal_XCVII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 97;
+            var expectedResult = "XCVII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_99_should_be_roman_numberal_XCIX()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 99;
+            var expectedResult = "XCIX";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_500_should_be_roman_numberal_D()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 500;
+            var expectedResult = "D";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_501_should_be_roman_numberal_DI()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 501;
+            var expectedResult = "DI";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_649_should_be_roman_numberal_DCXLIX()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 649;
+            var expectedResult = "DCXLIX";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_798_should_be_roman_numberal_DCCXCVIII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 798;
+            var expectedResult = "DCCXCVIII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_891_should_be_roman_numberal_DCCCXCI()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 891;
+            var expectedResult = "DCCCXCI";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_1000_should_be_roman_numberal_M()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 1000;
+            var expectedResult = "M";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_1004_should_be_roman_numberal_MIV()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 1004;
+            var expectedResult = "MIV";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_1006_should_be_roman_numberal_MVI()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 1006;
+            var expectedResult = "MVI";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_1023_should_be_roman_numberal_MXXIII()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 1023;
+            var expectedResult = "MXXIII";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_2014_should_be_roman_numberal_MMXIV()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 2014;
+            var expectedResult = "MMXIV";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Fact]
+        public void number_3999_should_be_roman_numberal_MMMCMXCIX()
+        {
+            // Arrange
+            var converter = new RomanNumeralConverter();
+            var input = 3999;
+            var expectedResult = "MMMCMXCIX";
+
+            // Act
+            var actualResult = converter.ConvertStuff(input);
+
+            // Assert
+            Assert.Equal(expectedResult, actualResult);
+        }
     }
 }
