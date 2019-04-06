@@ -33,7 +33,7 @@ namespace BadSuperbowlNamer_
 
             try
             {
-                var romanResult = converter.ConvertRoman(romanInput);
+                var romanResult = converter.RomanToInteger(romanInput);
                 Console.WriteLine($"{romanInput} is converted to the number {romanResult}");
             }
             catch (InvalidInputException ex)
