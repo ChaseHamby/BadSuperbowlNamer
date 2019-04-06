@@ -6,6 +6,8 @@ namespace BadSuperbowlNamer_
     {
         static void Main(string[] args)
         {
+            // Number to Roman NUmberal converter //
+
             var converter = new RomanNumeralConverter();
 
             Console.WriteLine("Give me a number");
@@ -16,6 +18,23 @@ namespace BadSuperbowlNamer_
                 var result = converter.ConvertStuff(input);
                 Console.WriteLine($"{input} is converted to the roman numeral {result}");
 
+            }
+            catch (InvalidInputException ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+            Console.ReadLine();
+
+            // Roman Numberal to Number converter //
+
+            Console.WriteLine("Give me a roman numeral");
+            var romanInput = Console.ReadLine();
+
+            try
+            {
+                var romanResult = converter.ConvertRoman(romanInput);
+                Console.WriteLine($"{romanInput} is converted to the number {romanResult}");
             }
             catch (InvalidInputException ex)
             {
